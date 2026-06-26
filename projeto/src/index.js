@@ -1,12 +1,11 @@
-import React from 'react'; // Importante importar o React
 import ReactDOM from 'react-dom/client';
-import Login from '../src/pages/Login';
 import GlobalStyle from './styles/globalStyles';
+import AppRoutes from './routes/Routes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <GlobalStyle />
-    <Login />
+    <AppRoutes />
   </>
 );
