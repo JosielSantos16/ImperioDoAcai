@@ -3,7 +3,7 @@ import {
     Titulo
 } from './cabecalhoStyles'
 
-export default function CabecalhoCadastro () {
+export default function CabecalhoCadastro() {
     return (
         <>
             <Cabecalho>
