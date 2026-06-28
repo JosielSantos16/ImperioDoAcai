@@ -1,4 +1,5 @@
 import { 
+    Div,
     Header,
     Titulo,
     Formulario,
@@ -12,7 +13,8 @@ import {
 export default function Login() {
     return (
         <>
-            <Header>
+            <Div>
+                <Header>
                 <Titulo>Império do Açaí</Titulo>
             </Header>
             <Formulario>
@@ -26,6 +28,7 @@ export default function Login() {
                     <Botao type="submit">Login</Botao>
                 </ConjutoDeCampo>
             </Formulario>
+            </Div>
         </>
     )
 }
