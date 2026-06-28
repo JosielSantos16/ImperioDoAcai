@@ -8,14 +8,14 @@ import {
   Main,
   Subtitulo,
   Tabela,
-  Footer,
 } from "./relatorioStyles";
 import Header from "../../components/header/Header";
+import Footer from "../../components/footer/footer";
 
 export default function Relatorio() {
   return (
     <Container>
-      <Header/>
+      <Header />
 
       <Cabeca>
         <Titulo>Relatórios</Titulo>
@@ -109,9 +109,7 @@ export default function Relatorio() {
         </Tabela>
       </Main>
 
-      <Footer>
-        <p>© 2025 AçaíLink Amazônia | Sistema de Rastreamento da Produção de Açaí | Baixo Amazonas, Pará</p>
-      </Footer>
+      <Footer />
     </Container>
   );
 }

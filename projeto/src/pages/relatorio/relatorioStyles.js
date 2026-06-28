@@ -111,10 +111,3 @@ export const Tabela = styled.table`
     font-weight: 600;
   }
 `;
-
-export const Footer = styled.footer`
-  text-align: center;
-  margin-top: 40px;
-  color: #64748b;
-  font-size: 0.9rem;
-`;
