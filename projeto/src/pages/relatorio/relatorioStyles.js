@@ -6,26 +6,6 @@ export const Container = styled.div`
   padding-bottom: 40px;
 `;
 
-export const Nav = styled.nav`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 40px;
-  background: #fff;
-  border-bottom: 1px solid #cbd5e1;
-`;
-
-export const NavLinks = styled.div`
-  display: flex;
-  gap: 20px;
-`;
-
-export const NavLink = styled.a`
-  color: #5b21b6;
-  text-decoration: none;
-  font-weight: 600;
-`;
-
 export const Cabeca = styled.header`
   text-align: center;
   padding: 30px 20px;
